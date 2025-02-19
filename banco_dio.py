@@ -1,14 +1,3 @@
-def saque(saldo, valor):
-    if (saldo>=valor):
-        if(valor<500):
-            return valor
-        else:
-            print("O valor do saque excede o limite diário de R$500,00")
-            return 0
-    else:
-        print("Saldo insuficiente")
-        return 0
-
 menu = """
 
 [d] Depositar
